@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiEmail</name>
+    </assembly>
+    <members>
+        <member name="M:ApiEmail.Controllers.AuthController.Post(ApiEmail.Controllers.AuthController.Users)">
+            <summary>
+            Mengatur email dan password untuk akun yang mengirim ke akun email lain.
+            </summary>
+            <param name="value">
+            Objek pengguna yang berisi email dan password.
+            Password yang dimasukkan adalah password aplikasi atau sandi aplikasi.
+            </param>
+            <remarks>
+            Cara mendapatkan password aplikasi:
+            1. Buka **Manage Account**.
+            2. Pergi ke **Keamanan** dan aktifkan **Keamanan 2 Langkah**.
+            3. Cari menu **Sandi Aplikasi**.
+            4. Gunakan password yang diperoleh untuk dimasukkan di aplikasi ini.
+            </remarks>
+            <returns>String dengan pesan "Success".</returns>
+        </member>
+    </members>
+</doc>
